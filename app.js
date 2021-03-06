@@ -98,7 +98,7 @@ function traerDatos(){
                     <button class="Tarjeta-Button"><img src="./img/delete.svg" alt="">Delete</button>
                 </div>
                 <div class="Tarjeta-Img">
-                    <img src="./img/perro1.jfif" alt="">
+                    <img src="${item.photo}" alt="">
                 </div>
                 <div class="Tarjeta-Info">
                     <h2 class="Tarjeta-Info-Nombre">${item.name}</h2>
@@ -110,7 +110,8 @@ function traerDatos(){
                     <p class="Tarjeta-Info-Pais">${item.pais}</p>
                     <p class="Tarjeta-Info-Texto">${item.text}</p>
                 </div>
-                        </div>
+                
+                
                 `
             }
 

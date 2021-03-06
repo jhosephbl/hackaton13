@@ -469,6 +469,7 @@ template {
 }
 
 .Tarjeta-Info {
+  margin-top: 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
