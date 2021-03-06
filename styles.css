@@ -521,11 +521,12 @@ template {
 }
 
 .Tarjeta-Info-Texto {
-  width: 100%;
+  width: 200px;
   text-align: center;
   font-size: .8em;
   margin: 6px;
   color: #afafaf;
+  padding: 10px;
 }
 
 body {
