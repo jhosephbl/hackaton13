@@ -1,0 +1,21 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131313;
+    padding: 0 20px 0 20px;
+
+    &-Logo{
+        color: white;
+        font-size: 1.5em;
+    }
+
+    &-Button{
+        border: none;
+        background: none;
+        color: white;
+        font-size: .6em;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+}

@@ -1,0 +1,70 @@
+.Contenedor-Tarjetas{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Tarjeta{
+    width: 220px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    
+    
+    background: white;
+
+    &-Icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        height: 25px;
+        padding: 0 10px 0 10px;
+        // background-color: black;
+
+        & img{
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    &-Button{
+        width: 30px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: .7em;
+        border: none;
+        background: none;
+    }
+
+    &-Img{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid black;
+            border-width: 5px;
+            
+        }
+    }
+}
+
+.Tarjeta:hover{
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.1);
+    // box-shadow: 3px 5px 12px rgb(226, 226, 226);
+}

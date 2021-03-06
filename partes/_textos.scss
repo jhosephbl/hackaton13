@@ -1,0 +1,51 @@
+.Tarjeta-Info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    &-Nombre{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 1em;
+        // background: coral;
+        color: black;
+    }
+
+    &-Contenedor1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        // background: black;
+        height: 20px;
+        // background: coral;
+    }
+
+    &-Dato{
+        font-size: .8em;
+        
+    }
+
+    &-Pais{
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: .9em;
+        text-transform: uppercase;
+        margin: 0;
+        // background: coral;
+    }
+    
+    &-Texto{
+        width: 100%;
+        text-align: center;
+        font-size: .8em;
+        margin: 6px;
+        color: rgb(175, 175, 175);
+        // background: coral;
+    }
+}
